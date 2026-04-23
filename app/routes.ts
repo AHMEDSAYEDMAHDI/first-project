@@ -4,4 +4,6 @@ import path from "path";
 export default [
   index("routes/home.tsx"),
   route("/auth", "routes/auth.tsx"),
+  route("/upload", "routes/upload.tsx"),
+  // route("/FileUploader", "../componnents/FileUploader.tsx"),
 ] satisfies RouteConfig;
